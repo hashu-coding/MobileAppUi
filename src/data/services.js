@@ -1,0 +1,68 @@
+const Services = [
+  {
+    id: 1,
+    title: 'Food',
+    subtitle: 'Order Now',
+    category: 'food',
+    image: require('../assets/images/services/food.png'),
+    backgroundColor: '#FFE8D9',
+  },
+  {
+    id: 2,
+    title: 'Grocery',
+    subtitle: '10 Min Delivery',
+    category: 'grocery',
+    image: require('../assets/images/services/grocery.png'),
+    backgroundColor: '#E8F8E8',
+  },
+  {
+    id: 3,
+    title: 'Instamart',
+    subtitle: 'Daily Essentials',
+    category: 'instamart',
+    image: require('../assets/images/services/instamart.png'),
+    backgroundColor: '#FFF4D8',
+  },
+  {
+    id: 4,
+    title: 'Dineout',
+    subtitle: 'Up to 50% OFF',
+    category: 'dineout',
+    image: require('../assets/images/services/dinout.jpg'),
+    backgroundColor: '#E8F1FF',
+  },
+  {
+    id: 5,
+    title: 'Genie',
+    subtitle: 'Pickup & Drop',
+    category: 'genie',
+    image: require('../assets/images/services/genie.jpg'),
+    backgroundColor: '#F4E8FF',
+  },
+  {
+    id: 6,
+    title: 'Pharmacy',
+    subtitle: 'Medicines',
+    category: 'pharmacy',
+    image: require('../assets/images/services/pharmacy.jpg'),
+    backgroundColor: '#EAFBF0',
+  },
+  {
+    id: 7,
+    title: 'Meat',
+    subtitle: 'Fresh Daily',
+    category: 'meat',
+    image: require('../assets/images/services/meat.jpg'),
+    backgroundColor: '#FFECEC',
+  },
+  {
+    id: 8,
+    title: 'Pet Care',
+    subtitle: 'Pet Supplies',
+    category: 'petcare',
+    image: require('../assets/images/services/petcare.jpg'),
+    backgroundColor: '#FFF8E6',
+  },
+];
+
+export default Services;

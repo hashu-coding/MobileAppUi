@@ -1,0 +1,43 @@
+const Products = [
+  {
+    id: 1,
+    name: 'Chicken Burger',
+    image: require('../assets/images/products/burger.png'),
+    restaurant: 'Burger King',
+    rating: 4.7,
+    reviews: 325,
+    price: 249,
+    oldPrice: 299,
+    discount: '20%',
+    description: 'Double Chicken Patty with Cheese',
+    isFavorite: false,
+  },
+  {
+    id: 2,
+    name: 'Veg Pizza',
+    image: require('../assets/images/products/pizza.png'),
+    restaurant: "Domino's",
+    rating: 4.6,
+    reviews: 221,
+    price: 399,
+    oldPrice: 499,
+    discount: '25%',
+    description: 'Loaded Cheese Pizza',
+    isFavorite: true,
+  },
+  {
+    id: 3,
+    name: 'Chicken Biryani',
+    image: require('../assets/images/products/biryani.png'),
+    restaurant: 'Behrouz',
+    rating: 4.8,
+    reviews: 615,
+    price: 349,
+    oldPrice: 449,
+    discount: '22%',
+    description: 'Hyderabadi Dum Biryani',
+    isFavorite: false,
+  },
+];
+
+export default Products;
